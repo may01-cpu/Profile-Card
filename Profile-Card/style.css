@@ -1,4 +1,5 @@
 body {
+
   font-family: "Kumbh Sans", sans-serif;
   background-color: hsl(185, 75%, 39%);
   background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
@@ -8,6 +9,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transform: scale(0.5);
+  transform-origin: center;
+  background-size: 45%;
+ 
 }
 
 .card {
